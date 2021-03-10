@@ -1,0 +1,22 @@
+<!DOCTYPE books SYSTEM "bill.dtd">
+<bill>
+	<customername>Gayathri</customername>
+	<billno>452367</billno>
+	<billdate>12.03.2021</billdate>
+	<item>
+		<sno>1</sno>
+		<itemname>Daal</itemname>
+		<unit>1</unit>
+		<price>60</price>
+		<quantity>2</quantity>
+		<totalamt>120</totalamt>
+	</item>
+	<item>
+		<sno>2</sno>
+		<itemname>Rice</itemname>
+		<unit>1</unit>
+		<price>70</price>
+		<quantity>2</quantity>
+		<totalamt>140</totalamt>
+	</item>	
+</bill>
