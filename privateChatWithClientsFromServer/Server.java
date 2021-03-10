@@ -27,7 +27,9 @@ public class Server {
 			s = ss.accept();
 			//System.out.println(s);
 			ClientHandler client = new ClientHandler(s);
-			new Thread(client).start();;
+			//new Thread(client).start();
+			ExecutorService es = Executors.newFixedThreadPool(1);
+			es.execute(client);
 		
 	     }
 }
