@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><inserts>
+    <option>Invoice  Number: 1</option>
+    <option>Date: 2021-03-16</option>
+    <option>Customer Number: 1</option>
+    <option>Customer Name: Gayathri</option>
+    <option>Item No: 1</option>
+    <option>Item Name: soap</option>
+    <option>Item Quantity: 2</option>
+    <option>Item Price: 20</option>
+    <option>Total Amount: 40</option>
+</inserts>

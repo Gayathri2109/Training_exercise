@@ -1,0 +1,9 @@
+Invoice  Number: 1
+Date: 2021-03-16
+Customer Number: 1
+Customer Name: Gayathri
+Item No: 1
+Item Name: soap
+Item Quantity: 2
+Item Price: 20
+Total Amount: 40
