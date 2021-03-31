@@ -51,8 +51,9 @@ public class ActionServlet extends HttpServlet {
 		doGet(request, response);
 		
 		Sample samp = Sample.get();
-		String email = samp.getCustEmail();
-		String no = samp.getCustNo();
+		HTTPSession session=request.getSession();
+		String email = session.getAttribute("custEmail");
+		String no = session.getAttribute("custNo");
 		
 		try {
 			if(request.getParameter("button1") != null) {
