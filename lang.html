@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<link rel = "stylesheet" type = "text/css" href = "./styles.css">
+<title>Language Selection</title>
+</head>
+<body>
+	
+	<h2>	<div class="font_shadows_into_light">
+        <p><center>Select Language</center></p>
+      </div></h2>
+	
+	<form action="lang.do" method="post">
+	<input type="hidden" name="formid" value="lang">
+		<center><select name="language">
+			<option value="ta">Tamil</option>
+			<option value="te">Telugu</option>
+			<option value="hi">Hindi</option>
+		</select>
+	<input type="submit" value="Select Language" class="btn btn-info"></center>
+	</form>
+</body>
+</html>
