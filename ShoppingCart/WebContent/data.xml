@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><inserts>
+    <option>Invoice  Number: 109876</option>
+    <option>Date: 2021-03-29</option>
+    <option>Customer Name: Gayathri</option>
+    <option>Customer Address: Salem</option>
+    <option>Customer Number: 9489845670</option>
+    <option>Customer Email: lpgayathri21@gmail.com</option>
+    <option>Item Name: rice</option>
+    <option>Item Price: 80</option>
+    <option>Item Name: banana</option>
+    <option>Item Price: 20</option>
+    <option>Item Name: bangles</option>
+    <option>Item Price: 200</option>
+    <option>Total Cost: 300</option>
+</inserts>
