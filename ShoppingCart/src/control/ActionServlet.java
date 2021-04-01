@@ -52,8 +52,8 @@ public class ActionServlet extends HttpServlet {
 		
 		Sample samp = Sample.get();
 		HttpSession session = request.getSession();
-		String email = session.getAttribute("email");
-		String no = session.getAttribute("no");
+		
+		
 		
 		try {
 			if(request.getParameter("button1") != null) {
@@ -63,11 +63,13 @@ public class ActionServlet extends HttpServlet {
 				samp.generateEXCEL();
 			}
 			else if(request.getParameter("button3") != null) {
-				
+				String email = session.getAttribute("email");
 				samp.sendEmail(email);
 			
 			}
 			else if(request.getParameter("button4") != null) {
+				
+				String no = session.getAttribute("no");
 				samp.sendSMS(no);
 			}
 	
